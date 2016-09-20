@@ -1,0 +1,6 @@
+baseurl = "hunter.werlla.com/"
+languageCode = "en-us"
+title = "Hunter Werlla"
+disableSitemap = true
+[Params]
+  Author = "Hunter Werlla"
