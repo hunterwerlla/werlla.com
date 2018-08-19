@@ -1,0 +1,67 @@
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.495em;
+    font-family: "Source Code Pro", "Arial", serif;
+    font-weight: 700;
+    line-height: 1;
+    margin-top: 0;
+    text-rendering: geometricPrecision;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    line-height: inherit;
+    padding-left: 0.2rem;
+    padding-right: 0.15rem;
+    outline: 0;
+    -webkit-transition: color .1s ease-out;
+    -webkit-transition-property: color;
+    -webkit-transition-duration: .1s;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-delay: initial;
+    -moz-transition: color .1s ease-out;
+    -o-transition: color .1s ease-out;
+    -ms-transition: color .1s ease-out;
+    transition: color .1s ease-out;
+    transition-property: color;
+    transition-duration: .1s;
+    transition-timing-function: ease-out;
+    transition-delay: initial;
+}
+
+a:hover {
+    color: #b3b3b3;
+}
+
+p a,
+p a:visited {
+    line-height: inherit;
+}
+
+html {
+    margin: 0;
+    padding-top: 1rem;
+    font-family: "Helvetica Neue", Helvetica, "Source Code Pro", sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.65;
+    font-weight: normal;
+    overflow-y: scroll;
+    min-height: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    min-height: 100%;
+    width: 100%;
+    *zoom: 1;
+    -webkit-font-smoothing: antialiased;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+    word-wrap: break-word;
+}
