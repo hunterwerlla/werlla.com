@@ -42,7 +42,7 @@ html {
     font-size: 2.5rem;
     line-height: 1.65;
     font-weight: normal;
-    overflow-y: scroll;
+    overflow-y: hidden;
     min-height: 100%;
 }
 
