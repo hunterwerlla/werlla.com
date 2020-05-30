@@ -2,8 +2,9 @@
   box-sizing: border-box;
 }
 
-h1 {
-    font-size: 2.2rem;
+h1,h2 {
+    color: #404045;
+    font-size: 2.2em;
     margin-bottom: 0.495em;
     font-family: "Lato", "Arial", serif;
     font-weight: 700;
@@ -11,6 +12,15 @@ h1 {
     margin-top: 0;
     text-rendering: geometricPrecision;
 }
+
+h2 {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.0em;
+}
+
 
 a {
     color: #35342F;
@@ -21,13 +31,13 @@ a {
     padding-right: 0.15rem;
     outline: 0;
     transition-property: color;
-    transition-duration: 0.15s;
+    transition-duration: 0.25s;
     transition-timing-function: ease-out;
     transition-delay: 0;
 }
 
 a:hover {
-    color: #919290;
+    color: #616260;
 }
 
 p a,
@@ -37,7 +47,7 @@ p a:visited {
 
 html {
     margin: 0;
-    padding-top: 1rem;
+    padding-top: 1em;
     font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
     font-size: 2.5rem;
     line-height: 1.65;
@@ -50,7 +60,17 @@ body {
     background-color: #E1E0DD;
     background-image: url("../image/background.png");
     width: 100%;
-    word-wrap: break-word;
     margin: 0; 
     padding: 0
+}
+
+#blog-content {
+    width: 1000px;
+    display: flex;
+    word-wrap: break-word;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.5em;
+    font-family: "Office Code Pro", "Source Code Pro", monospace;
 }
