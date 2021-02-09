@@ -1,12 +1,10 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 h1,h2 {
     color: #404045;
-    font-size: 2.2em;
-    margin-bottom: 0.495em;
-    font-family: "Lato", "Arial", serif;
+    font-family: "Questrial", "Arial", serif;
     font-weight: 700;
     line-height: 1;
     margin-top: 0;
@@ -27,13 +25,11 @@ a {
     text-decoration: none;
     text-rendering: geometricPrecision;
     line-height: inherit;
-    padding-left: 0.2rem;
-    padding-right: 0.15rem;
     outline: 0;
     transition-property: color;
-    transition-duration: 0.25s;
+    transition-duration: 0.2s;
     transition-timing-function: ease-out;
-    transition-delay: 0;
+    transition-delay: 0s;
 }
 
 a:hover {
@@ -48,7 +44,7 @@ p a:visited {
 html {
     margin: 0;
     padding-top: 1em;
-    font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Questrial", "Helvetica Neue", Helvetica, sans-serif;
     font-size: 2.5rem;
     line-height: 1.65;
     font-weight: normal;

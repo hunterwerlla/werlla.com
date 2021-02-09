@@ -1,0 +1,15 @@
+#site-header {
+    position: absolute;
+    bottom: 8%;
+    left: 5%;
+}
+
+a {
+    font-size: 1.7em;
+    padding-right: 0.6em;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 4%;
+}
