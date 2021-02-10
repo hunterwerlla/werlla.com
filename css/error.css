@@ -1,0 +1,11 @@
+h1 {
+    color: #404045;
+    font-family: "Questrial", "Arial", serif;
+    font-weight: 700;
+    line-height: 1;
+    margin-top: 0;
+    text-rendering: geometricPrecision;
+    position: absolute;
+    bottom: 3%;
+    left: 5%;
+}

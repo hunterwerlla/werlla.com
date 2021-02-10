@@ -1,0 +1,18 @@
+#blog-header {
+    position: absolute;
+    bottom: 3%;
+    left: 5%;
+    font-size: 1em;
+}
+
+#posts {
+	font-size: clamp(0.5rem, 4vw, 0.8rem);
+}
+
+.blog {
+	display:flex;
+}
+
+#posts {
+	flex: 10%;
+}
