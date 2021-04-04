@@ -1,12 +1,13 @@
 #blog-header {
     position: absolute;
-    bottom: 3%;
-    left: 5%;
-    font-size: 1em;
+    top: 0.5rem;
+    left: 0.5rem;
+    font-size: 1.5rem;
 }
 
 #posts {
-	font-size: clamp(0.5rem, 4vw, 0.8rem);
+	font-size: clamp(0.5rem, 4vw, 1rem);
+    padding: 2rem 0;
 }
 
 .blog {
@@ -15,4 +16,8 @@
 
 #posts {
 	flex: 10%;
+}
+
+h1 {
+    color: #37bbe4;
 }
