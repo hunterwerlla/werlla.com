@@ -21,3 +21,22 @@
 h1 {
     color: #37bbe4;
 }
+
+#blog-content {
+    width: 900px;
+    display: block;
+    word-wrap: break-word;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.5em;
+}
+
+pre {
+    background-color: #dadada;
+    border-radius: 0.3rem;
+    padding: 0.3rem 0.4rem 0.3rem 0.4rem;
+    margin-left: -0.3rem;
+    margin-right: -0.3rem;
+    font-family: "Office Code Pro", "Source Code Pro", monospace;
+}

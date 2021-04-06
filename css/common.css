@@ -51,17 +51,6 @@ body {
     background-color: #E1E0DD;
     background-image: url("../image/background.png");
     width: 100%;
-    margin: 0; 
-    padding: 0
-}
-
-#blog-content {
-    width: 1000px;
-    display: flex;
-    word-wrap: break-word;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 0.5em;
-    font-family: "Office Code Pro", "Source Code Pro", monospace;
+    margin: 0;
+    padding: 0;
 }
