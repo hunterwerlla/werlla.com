@@ -5,7 +5,7 @@
     font-size: 1.5rem;
 }
 
-#posts {
+#blog {
 	font-size: clamp(0.5rem, 4vw, 1rem);
     padding: 2rem 0;
 }
@@ -14,7 +14,7 @@
 	display:flex;
 }
 
-#posts {
+#blog {
 	flex: 10%;
 }
 
